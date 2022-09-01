@@ -1,5 +1,6 @@
 class Calculator
-  def add(a, b)
-    a + b
+  def add(*args)
+    # args.is_a? Array
+    args.sum
   end
 end
